@@ -41,7 +41,7 @@ public class EpubCreator {
         copyStandardFilez();
         createOPFFile();
         createIndex();
-        createTitlePage();
+        //createTitlePage();
         createTOC();
         pack(basedir.getAbsolutePath(), output.getAbsolutePath());
         FileUtils.deleteDirectory(basedir);
